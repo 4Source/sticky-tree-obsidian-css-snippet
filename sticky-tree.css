@@ -1,5 +1,5 @@
 /* Level 1 */
-.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     position: sticky;
     background-color: var(--background-secondary);
     top: calc(0em);
@@ -7,55 +7,55 @@
 }
 
 /* Level 2 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(2em);
     z-index: 9;
 }
 
 /* Level 3 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(4em);
     z-index: 8;
 }
 
 /* Level 4 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(6em);
     z-index: 7;
 }
 
 /* Level 5 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(8em);
     z-index: 6;
 }
 
 /* Level 6 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(10em);
     z-index: 5;
 }
 
 /* Level 7 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(12em);
     z-index: 4;
 }
 
 /* Level 8 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(14em);
     z-index: 3;
 }
 
 /* Level 9 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(16em);
     z-index: 2;
 }
 
 /* Level 10 */
-.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children)>.tree-item-self {
+.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed)>.tree-item-children>.tree-item:not(.is-collapsed):has(> .tree-item-children):has(> .mod-collapsible)>.tree-item-self {
     top: calc(18em);
     z-index: 1;
 }
